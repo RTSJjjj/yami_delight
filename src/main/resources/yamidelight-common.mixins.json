@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.yami.yamidelight.head.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MaidDropAccessor",
+    "MaidDeathSoundMixin",
+    "MaidHangingMoveMixin",
+    "MaidHangingLeashMixin",
+    "MaidHangingBubbleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "yamidelight:sea_land_wind_winefox_cooking",
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_cod"
+    },
+    {
+      "tag": "yamidelight:apples"
+    },
+    {
+      "tag": "c:foods/raw_cod"
+    },
+    {
+      "tag": "yamidelight:honey_ingredients"
+    },
+    {
+      "item": "yamidelight:processed_winefox"
+    },
+    {
+      "item": "yamidelight:winefox_head"
+    }
+  ],
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "result": {
+    "id": "yamidelight:sea_land_wind_winefox",
+    "count": 1
+  },
+  "cookingtime": 400,
+  "experience": 1,
+  "recipe_book_tab": "meals"
+}

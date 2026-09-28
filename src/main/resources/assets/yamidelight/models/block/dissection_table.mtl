@@ -1,0 +1,6 @@
+# Made in Blockbench 5.1.6
+newmtl m_d5413189-8b70-6d28-a250-b96e469beca1
+map_Kd yamidelight:block/dissection_table/tray
+newmtl m_b51e2ea8-dad5-3e43-e618-cd84953f0e9a
+map_Kd yamidelight:block/dissection_table/dizyo
+newmtl none

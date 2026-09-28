@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,occupied=false": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 0
+    },
+    "facing=north,occupied=true": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 0
+    },
+    "facing=east,occupied=false": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 90
+    },
+    "facing=east,occupied=true": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 90
+    },
+    "facing=south,occupied=false": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 180
+    },
+    "facing=south,occupied=true": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 180
+    },
+    "facing=west,occupied=false": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 270
+    },
+    "facing=west,occupied=true": {
+      "model": "yamidelight:block/meat_hook",
+      "y": 270
+    }
+  }
+}

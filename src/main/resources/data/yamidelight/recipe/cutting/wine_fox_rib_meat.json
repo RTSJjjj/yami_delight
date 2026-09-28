@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "yamidelight:wine_fox_rib_meat"}],
+  "tool": [{"type": "farmersdelight:item_ability", "action": "knife_dig"}, {"tag": "c:tools/knife"}],
+  "result": [{"item": {"id": "yamidelight:wine_fox_rib_meat_slice", "count": 2}}]
+}

@@ -1,0 +1,61 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.143'
+    id 'idea'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+sourceSets.main.resources {
+    exclude("**/*.bbmodel")
+}
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        yamidelight {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    // Anything dropped into libs/ is used for compiling and for runClient/runServer.
+    //
+    // Touhou Little Maid is the only hard compile dependency: the maid entity, its YSM model fields and
+    // the Bedrock geometry renderer all come from that jar. Yes Steve Model is deliberately NOT compiled
+    // against - its Java side is obfuscated - so the head is read from the model files on disk instead,
+    // which also keeps working when YSM updates.
+    def sideMods = fileTree('libs') { include '*.jar' }
+    compileOnly sideMods
+    runtimeOnly sideMods
+}

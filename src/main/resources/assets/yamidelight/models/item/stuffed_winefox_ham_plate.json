@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yamidelight:item/stuffed_winefox_ham_plate"
+  }
+}

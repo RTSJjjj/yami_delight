@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "yamidelight:block/winefox_head" },
+    "facing=east": { "model": "yamidelight:block/winefox_head" },
+    "facing=south": { "model": "yamidelight:block/winefox_head" },
+    "facing=west": { "model": "yamidelight:block/winefox_head" },
+    "facing=up": { "model": "yamidelight:block/winefox_head" },
+    "facing=down": { "model": "yamidelight:block/winefox_head" }
+  }
+}

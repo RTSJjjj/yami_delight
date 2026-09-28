@@ -1,0 +1,25 @@
+{
+  "bone": "UpBody",
+  "from": [
+    -0.5,
+    17.8,
+    -2.125
+  ],
+  "to": [
+    0.5,
+    18.8,
+    2.1
+  ],
+  "start_seconds": 6,
+  "particles_per_tick": 4,
+  "color": [
+    1,
+    0.94,
+    0.62
+  ],
+  "alpha": 0.45,
+  "decay_per_second": 0.7,
+  "pulse_period_seconds": 1,
+  "hold_min_interval_ticks": 40,
+  "hold_max_interval_ticks": 100
+}

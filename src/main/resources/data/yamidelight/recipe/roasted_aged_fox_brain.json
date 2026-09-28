@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "yamidelight:wine_fox_brain"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "yamidelight:milk_ingredients"
+    },
+    {
+      "tag": "yamidelight:milk_ingredients"
+    },
+    {
+      "tag": "yamidelight:milk_ingredients"
+    }
+  ],
+  "container": {
+    "id": "yamidelight:fox_brain_bowl",
+    "count": 1
+  },
+  "result": {
+    "id": "yamidelight:roasted_aged_fox_brain",
+    "count": 1
+  }
+}

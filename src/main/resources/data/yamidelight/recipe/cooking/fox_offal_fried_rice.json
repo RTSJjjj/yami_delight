@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "yamidelight:zasui"
+    },
+    {
+      "item": "yamidelight:zasui"
+    }
+  ],
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "result": {
+    "id": "yamidelight:fox_offal_fried_rice",
+    "count": 1
+  },
+  "cookingtime": 200,
+  "experience": 1,
+  "recipe_book_tab": "meals"
+}

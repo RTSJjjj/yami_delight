@@ -1,0 +1,1 @@
+{"loader":"neoforge:obj","model":"yamidelight:models/block/dissection_table.obj","textures":{"particle":"yamidelight:block/dissection_table/tray"},"automatic_culling":false,"shade_quads":true,"flip_v":true,"render_type":"minecraft:cutout"}

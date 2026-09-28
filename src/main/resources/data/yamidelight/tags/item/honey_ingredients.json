@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:honey_bottle",
+    {
+      "id": "#c:foods/honey",
+      "required": false
+    },
+    {
+      "id": "#c:drinks/honey",
+      "required": false
+    },
+    {
+      "id": "#c:honey",
+      "required": false
+    }
+  ]
+}

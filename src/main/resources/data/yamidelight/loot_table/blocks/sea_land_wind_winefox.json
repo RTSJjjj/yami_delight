@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "yamidelight:sea_land_wind_winefox",
+          "properties": {
+            "part": "0",
+            "servings": "11"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "yamidelight:sea_land_wind_winefox"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "yamidelight:sea_land_wind_winefox",
+          "properties": {
+            "part": "0"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "yamidelight:sea_land_wind_winefox",
+            "properties": {
+              "servings": "11"
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "yamidelight:sea_land_wind_winefox",
+          "properties": {
+            "part": "0"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "yamidelight:sea_land_wind_winefox",
+            "properties": {
+              "servings": "11"
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ]
+}

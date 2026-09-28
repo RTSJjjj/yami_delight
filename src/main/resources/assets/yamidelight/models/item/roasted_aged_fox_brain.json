@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yamidelight:item/roasted_aged_fox_brain"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "display": {
+    "gui": {
+      "rotation": [
+        20,
+        -35,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        4,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        6,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        0,
+        6,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        5,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    }
+  },
+  "loader": "neoforge:obj",
+  "model": "yamidelight:models/item/meat_hook.obj",
+  "textures": {
+    "particle": "yamidelight:block/meat_hook"
+  },
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": true,
+  "render_type": "minecraft:cutout"
+}

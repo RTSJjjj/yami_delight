@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {"item": "yamidelight:wine_fox_waist_meat"},
+  "result": {"id": "yamidelight:cooked_wine_fox_waist_meat"},
+  "experience": 0.35,
+  "cookingtime": 200
+}

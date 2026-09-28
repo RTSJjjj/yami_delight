@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:apple",
+    {
+      "id": "#c:foods/apple",
+      "required": false
+    },
+    {
+      "id": "#c:foods/apples",
+      "required": false
+    },
+    {
+      "id": "#c:fruits/apple",
+      "required": false
+    }
+  ]
+}

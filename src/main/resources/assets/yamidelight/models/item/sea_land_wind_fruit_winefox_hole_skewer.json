@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yamidelight:item/sea_land_wind_fruit_winefox_hole_skewer"
+  }
+}

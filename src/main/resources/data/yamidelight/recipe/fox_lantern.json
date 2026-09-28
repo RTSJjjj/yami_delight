@@ -1,0 +1,27 @@
+{
+  "type": "yamidelight:fox_lantern",
+  "category": "misc",
+  "pattern": [
+    "EBE",
+    " H ",
+    " T "
+  ],
+  "key": {
+    "E": {
+      "item": "yamidelight:wine_fox_ear"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "H": {
+      "item": "yamidelight:empty_winefox_head"
+    },
+    "T": {
+      "tag": "yamidelight:torches"
+    }
+  },
+  "result": {
+    "id": "yamidelight:fox_lantern",
+    "count": 1
+  }
+}

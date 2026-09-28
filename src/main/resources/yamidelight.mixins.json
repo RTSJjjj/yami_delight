@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.yami.yamidelight.head.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HairCollisionWorldMixin",
+    "MaidAnimationMixin",
+    "MaidPoseMixin",
+    "MaidBloodRenderMixin",
+    "MaidDeathHoldMixin",
+    "MaidHangingBubbleRenderMixin",
+    "MaidLeashAnchorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

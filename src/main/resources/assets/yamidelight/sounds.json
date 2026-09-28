@@ -1,0 +1,10 @@
+{
+  "winefox.death": {
+    "subtitle": "subtitles.yamidelight.winefox_death",
+    "sounds": [{"name": "yamidelight:maid/death", "stream": false}]
+  },
+  "winefox.death2": {
+    "subtitle": "subtitles.yamidelight.winefox_death2",
+    "sounds": [{"name": "yamidelight:maid/death2", "stream": false}]
+  }
+}

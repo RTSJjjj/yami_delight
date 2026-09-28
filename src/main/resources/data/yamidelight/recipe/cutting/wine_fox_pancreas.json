@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "yamidelight:wine_fox_pancreas"}],
+  "tool": [{"type": "farmersdelight:item_ability", "action": "knife_dig"}, {"tag": "c:tools/knife"}],
+  "result": [{"item": {"id": "yamidelight:zasui", "count": 2}}]
+}

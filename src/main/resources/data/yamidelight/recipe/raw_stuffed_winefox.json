@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "MPM",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "yamidelight:fox_offal_fried_rice"
+    },
+    "M": {
+      "tag": "yamidelight:milk_ingredients"
+    },
+    "P": {
+      "item": "yamidelight:processed_winefox"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "id": "yamidelight:raw_stuffed_winefox",
+    "count": 1
+  }
+}
