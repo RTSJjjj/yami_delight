@@ -59,6 +59,3 @@ dependencies {
     compileOnly sideMods
     runtimeOnly sideMods
 }
-tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8'
-}
